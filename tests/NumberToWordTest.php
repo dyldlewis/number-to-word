@@ -18,6 +18,16 @@
             $this->assertEquals("eighteen", $result);
          }
 
+         function test_countTwentyToOneHundred()
+         {
+           $test_NumberToWord = new NumberToWord;
+           $input = 45;
+
+           $result = $test_NumberToWord->countTwentyToOneHundred($input);
+
+           $this->assertEquals("forty-five", $result);
+         }
+
     }
 
 

@@ -18,14 +18,14 @@
             $this->assertEquals("eighteen", $result);
          }
 
-         function test_countTwentyToOneHundred()
+         function test_countToTwenty()
          {
            $test_NumberToWord = new NumberToWord;
-           $input = 45;
+           $input = 40;
 
-           $result = $test_NumberToWord->countTwentyToOneHundred($input);
+           $result = $test_NumberToWord->countToTwenty($input);
 
-           $this->assertEquals("forty-five", $result);
+           $this->assertEquals("forty", $result);
          }
 
     }
